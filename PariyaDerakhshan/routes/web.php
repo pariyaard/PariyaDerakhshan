@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\GebruikerController;
+use App\Http\Controllers\BerichtController;
 use http\Client\Curl\User;
 use Illuminate\Support\Facades\Route;
 
@@ -18,3 +18,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Route::resource(‘berichts’, BerichtController::class);
+Route::get('bericht', [BerichtController::class, 'index']);
