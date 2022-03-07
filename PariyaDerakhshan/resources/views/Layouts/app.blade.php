@@ -16,7 +16,7 @@
     <style>
         .footer {
             position: fixed;
-            left: 350px;
+            left: 40%;
             bottom: 0;
             width: 50%;
             background-color: pink;
