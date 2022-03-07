@@ -7,7 +7,7 @@
                 <h2>Laravel 8 CRUD </h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-success" href="{{ route('bericht.create') }}" title="Create a project"> <i class="fas fa-plus-circle"></i>
+                <a class="btn btn-success" href="{{ route('berichts.create') }}" title="Create a project"> <i class="fas fa-plus-circle"></i>
                 </a>
             </div>
         </div>
@@ -22,7 +22,7 @@
     <table class="table table-bordered table-responsive-lg">
         <tr>
             <th>No</th>
-            <th>Title</th>
+            <th>Titel</th>
             <th>Content</th>
 
             <th width="280px">Action</th>

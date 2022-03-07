@@ -13,9 +13,9 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('berichts', function (Blueprint $table) {
+        Schema::create('messages', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id');
+//          $table->foreignId('user_id');
             $table->string('titel');
             $table->text('content');
             $table->timestamp('published_at')->nullable();
@@ -29,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('berichts');
+        Schema::dropIfExists('messages');
     }
 };

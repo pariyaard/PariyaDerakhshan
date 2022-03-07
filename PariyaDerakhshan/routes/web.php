@@ -19,5 +19,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//
 //Route::resource(‘berichts’, BerichtController::class);
-Route::get('bericht', [BerichtController::class, 'index']);
+//Route::resource(‘berichts’, BerichtController::class);
+//Route::get('bericht', [BerichtController::class, 'index']);
+Route::get('/berichts/{id}', [BerichtController::class, 'show']);
