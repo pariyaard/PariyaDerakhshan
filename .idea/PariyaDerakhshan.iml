@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/PariyaDerakhshan/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/PariyaDerakhshan/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/PariyaDerakhshan/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/PariyaDerakhshan/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/nette/utils" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/nette/schema" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/laravel/serializable-closure" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/laravel/sanctum" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/laravel/sail" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/fruitcake/php-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/polyfill-php81" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/dflydev/dot-access-data" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/mailer" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/league/config" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/spatie/flare-client-php" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/spatie/laravel-ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/spatie/ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/spatie/backtrace" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/PariyaDerakhshan/vendor/facade/ignition-contracts" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
