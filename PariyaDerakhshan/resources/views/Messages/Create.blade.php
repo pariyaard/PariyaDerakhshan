@@ -4,10 +4,10 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Edit Product</h2>
+                <h2>Add New Product</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary" href="{{ route('$bericht.index') }}" title="Go back"> <i class="fas fa-backward "></i> </a>
+                <a class="btn btn-primary" href="{{ route('messages.index') }}" title="Go back"> <i class="fas fa-backward "></i> </a>
             </div>
         </div>
     </div>
@@ -22,26 +22,23 @@
             </ul>
         </div>
     @endif
-
-    <form action="{{ route('$berichts.update', $bericht->id) }}" method="POST">
+    <form action="{{ route('messages.store') }}" method="POST" >
         @csrf
-        @method('PUT')
 
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <strong>Titel:</strong>
-                    <input type="text" name="name" value="{{ $bericht->titel }}" class="form-control" placeholder="Name">
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="form-group">
-                    <strong>Introduction:</strong>
-                    <textarea class="form-control" style="height:50px" name="introduction"
-                              placeholder="Introduction">{{ $bericht->content }}</textarea>
+                    <strong>titel:</strong>
+                    <input type="text" name="titel" class="form-control" placeholder="titel">
                 </div>
             </div>
 
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="form-group">
+                    <strong>content:</strong>
+                    <input type="text" name="content" class="form-control" placeholder="content">
+                </div>
+            </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                 <button type="submit" class="btn btn-primary">Submit</button>
             </div>

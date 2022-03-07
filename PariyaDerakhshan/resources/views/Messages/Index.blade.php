@@ -7,7 +7,7 @@
                 <h2>Laravel 8 CRUD </h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-success" href="{{ route('berichts.create') }}" title="Create a project"> <i class="fas fa-plus-circle"></i>
+                <a class="btn btn-success" href="{{ route('messages.create') }}" title="Create a project"> <i class="fas fa-plus-circle"></i>
                 </a>
             </div>
         </div>
@@ -21,25 +21,26 @@
 
     <table class="table table-bordered table-responsive-lg">
         <tr>
-            <th>No</th>
-            <th>Titel</th>
-            <th>Content</th>
+            <th>id</th>
+            <th>titel</th>
+            <th>content</th>
 
-            <th width="280px">Action</th>
+            <th width="280px">steps</th>
         </tr>
-        @foreach ($berichts as $bericht)
+        @foreach ($messages as $message)
             <tr>
+                <td>{{ ++$i }}</td>
+                <td>{{ $message->titel }}</td>
+                <td>{{ $message->content }}</td>
 
-                <td>{{ $bericht->titel }}</td>
-                <td>{{ $bericht->content }}</td>
                 <td>
-                    <form action="{{ route('berichts.destroy', $bericht->id) }}" method="POST">
+                   <form action="{{ route('messages.destroy', $message->id) }}" method="POST">
 
-                        <a href="{{ route('berichts.show', $bericht->id) }}" title="show">
-                            <i class="fas fa-eye text-success  fa-lg"></i>
-                        </a>
+                        <a href="{{ route('messages.show', $message->id) }}" title="show">
+                           <i class="fas fa-eye text-success  fa-lg"></i>
+                       </a>
 
-                        <a href="{{ route('$berichts.edit', $bericht->id) }}">
+                     <a href="{{ route('messages.edit', $message->id) }}">
                             <i class="fas fa-edit  fa-lg"></i>
 
                         </a>
@@ -57,6 +58,6 @@
         @endforeach
     </table>
 
-    {!! $berichts->links() !!}
+{{--    {!! $messages->links() !!}--}}
 
 @endsection

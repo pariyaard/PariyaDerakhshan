@@ -1,7 +1,7 @@
 <?php
 
-use App\Http\Controllers\BerichtController;
-use http\Client\Curl\User;
+use App\Http\Controllers\MessageController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,9 +18,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-//
-//Route::resource(‘berichts’, BerichtController::class);
-//Route::resource(‘berichts’, BerichtController::class);
-//Route::get('bericht', [BerichtController::class, 'index']);
-Route::get('/berichts/{id}', [BerichtController::class, 'show']);
+Route::resource('messages', MessageController::class);
+Route::resource('users', UserController::class);

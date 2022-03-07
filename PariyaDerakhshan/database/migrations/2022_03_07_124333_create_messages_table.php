@@ -18,7 +18,7 @@ return new class extends Migration
 //          $table->foreignId('user_id');
             $table->string('titel');
             $table->text('content');
-            $table->timestamp('published_at')->nullable();
+
         });
     }
 
