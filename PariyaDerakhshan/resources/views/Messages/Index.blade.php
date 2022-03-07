@@ -63,5 +63,5 @@
     {{--    {!! $messages->links() !!}--}}
 
 
-
+    <button type="button" class="btn btn-outline-primary"><a href="{{ url('/') }}"> go back to homepage</a></button>
 @endsection
