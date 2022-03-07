@@ -16,11 +16,11 @@
     <style>
         .footer {
             position: fixed;
-            left: 0;
+            left: 350px;
             bottom: 0;
-            width: 100%;
-            background-color: #9C27B0;
-            color: white;
+            width: 50%;
+            background-color: pink;
+            color: black;
             text-align: center;
         }
 
@@ -38,9 +38,8 @@
 </div>
 <div class="text-center footer">
 
-    <h4>The writer needs a job</h4>
-    <h4>+234 806 605 6233</h4>
-    <h4>kingsconsult001@gmail.com</h4>
+    <h4>Pariya Derakhshan</h4>
+
 
 </div>
 </body>

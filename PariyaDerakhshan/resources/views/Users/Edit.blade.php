@@ -7,14 +7,14 @@
                 <h2>Edit Product</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary" href="{{ route('messages.index') }}" title="Go back"> <i class="fas fa-backward "></i> </a>
+                <a class="btn btn-primary" href="{{ route('users.index') }}" title="Go back"> <i class="fas fa-backward "></i> </a>
             </div>
         </div>
     </div>
 
     @if ($errors->any())
         <div class="alert alert-danger">
-            <strong>Whoops!</strong> There were some problems with your input.<br><br>
+            <strong>Whoops!</strong>  something went wrong.<br><br>
             <ul>
                 @foreach ($errors->all() as $error)
                     <li>{{ $error }}</li>
@@ -23,21 +23,27 @@
         </div>
     @endif
 
-    <form action="{{ route('messages.update', $message->id) }}" method="POST">
+    <form action="{{ route('users.update', $user->id) }}" method="POST">
         @csrf
         @method('PUT')
 
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <strong>Titel:</strong>
-                    <input type="text" name="titel" class="form-control" placeholder="titel">
+                    <strong>Name:</strong>
+                    <input type="text" name="name" class="form-control" placeholder="name">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <strong>Content:</strong>
-                    <input type="text" name="content" class="form-control" placeholder="content">
+                    <strong>email:</strong>
+                    <input type="email" name="email" class="form-control" placeholder="email">
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="form-group">
+                    <strong>password:</strong>
+                    <input type="password" name="password" class="form-control" placeholder="password">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">

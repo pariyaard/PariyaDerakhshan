@@ -4,10 +4,11 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Laravel 8 CRUD </h2>
+                <h2>verdieping software </h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-success" href="{{ route('messages.create') }}" title="Create a project"> <i class="fas fa-plus-circle"></i>
+                <a class="btn btn-success" href="{{ route('messages.create') }}" title="Make a message"> <i
+                        class="fas fa-plus-circle"></i>
                 </a>
             </div>
         </div>
@@ -34,13 +35,14 @@
                 <td>{{ $message->content }}</td>
 
                 <td>
-                   <form action="{{ route('messages.destroy', $message->id) }}" method="POST">
+                    <form action="{{ route('messages.destroy', $message->id) }}" method="POST">
 
                         <a href="{{ route('messages.show', $message->id) }}" title="show">
-                           <i class="fas fa-eye text-success  fa-lg"></i>
-                       </a>
+                            <i class="fas fa-eye text-success  fa-lg"></i>
 
-                     <a href="{{ route('messages.edit', $message->id) }}">
+                        </a>
+
+                        <a href="{{ route('messages.edit', $message->id) }}">
                             <i class="fas fa-edit  fa-lg"></i>
 
                         </a>
@@ -58,6 +60,8 @@
         @endforeach
     </table>
 
-{{--    {!! $messages->links() !!}--}}
+    {{--    {!! $messages->links() !!}--}}
+
+
 
 @endsection
